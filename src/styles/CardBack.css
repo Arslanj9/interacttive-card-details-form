@@ -1,0 +1,65 @@
+.CardBack img {
+    position: absolute;
+    right: 1.5rem;
+    top: 2.5rem;
+    width: 18rem;
+    z-index: 2;
+}
+
+.cvc-wrapper {
+    /* background-color: rgb(169, 169, 36);
+    opacity: 0.4; */
+    
+    position: absolute;
+    right: 1.5rem;
+    /* left: 5%; */
+    top: 2.5rem;
+    border-radius: 0.4rem;
+    width: 18rem;
+    height: 10rem;
+    z-index: 5;
+}
+
+.cvcNum {
+    position: absolute;
+    top: 4.4rem;
+    right: 2.5rem;
+    color: white;
+    font-size: 0.7rem;
+    z-index: 2;
+
+    /* display: none; */
+}
+
+@media (min-width: 900px) {
+    .CardBack img {
+        left: 14%;
+        top: 30rem;
+        width: 30rem;
+    }
+
+    .cvc-wrapper {
+        /* background-color: rgb(169, 145, 36);
+        opacity: 0.4; */
+        
+        position: absolute;
+        left: 14%;
+        top: 30rem;
+        border-radius: 0.4rem;
+        width: 30rem;
+        height: 16.4rem;
+        z-index: 5;
+        
+    }
+
+    .cvc-wrapper .cvcNum {
+        position:relative;
+        top: 7.5rem;
+        left: 24.6rem;
+        color: white;
+        font-size: 0.9rem;
+        z-index: 5;
+        letter-spacing: 0.13rem;
+    }
+    
+}

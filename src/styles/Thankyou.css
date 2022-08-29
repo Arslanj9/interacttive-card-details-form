@@ -1,0 +1,34 @@
+.Thankyou {
+    margin-top: 5.9rem;
+    /* background-color: beige; */
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Thankyou > h3 {
+    font-size: 1.5rem;
+    letter-spacing: 0.22rem;
+    margin-top: 2rem;
+    /* font-weight: 500; */
+}
+
+.Thankyou > h5 {
+    font-size: 0.95rem;
+    letter-spacing: 0.01rem;
+    font-weight: 300;
+    margin-top: 0.8rem;
+}
+
+.ContinueBtn {
+    width: 100%;
+    margin-top: 3rem;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}

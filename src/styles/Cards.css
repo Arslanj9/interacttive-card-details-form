@@ -1,0 +1,26 @@
+.bgMobImage {
+    width: 100vw;
+    max-height: 28vh;
+}
+
+.bgDesktopImage {
+    height: 100vh;
+
+    display: none;
+}
+
+.bgCardFrontImg {
+    position: absolute;
+    top: 2rem;
+    left: 3px;
+}
+
+@media (min-width:900px) {
+    .bgMobImage {
+        display: none;
+    }
+
+    .bgDesktopImage {
+        display: block;
+    }
+}
