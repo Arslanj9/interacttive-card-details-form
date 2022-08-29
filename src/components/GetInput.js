@@ -14,7 +14,6 @@ const GetInput = () => {
 
   const onConfirm = (e) => {
     e.preventDefault();
-    // if ()
     dispatch(setShowThankyou(true))
   }
 
