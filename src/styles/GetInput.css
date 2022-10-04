@@ -39,11 +39,8 @@ input:focus {
     display: flex;
 }
 
-.cvc-input-wrapper > input{
-    width: 11rem;
-}
 .cvc-input-wrapper {
-    max-width: 11rem;
+    /* max-width: 11rem; */
 }
 
 .expDate-wrapper .input-wrapper {
@@ -85,6 +82,25 @@ input:focus {
     width: 100%;
 }
 
+.errors {
+    color: red;
+    margin-top: 0.4rem;
+}
+
+.error-asterisk {
+    margin-left: -4px;
+    margin-right: 5px;
+}
+
+.cvcDiv{
+    display: flex;
+}
+
+.cvcDiv > input {
+    width: 11rem;
+    margin-left: 1rem;
+    margin-right: 0.6rem;
+}
 
 
 @media (min-width: 900px) {
