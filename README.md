@@ -16,7 +16,7 @@ https://arslanj9.github.io/interacttive-card-details-form/
 
 
 ### Built with
-React
-Redux
-React-hook-form
-Yup
+* React
+* Redux
+* React-hook-form
+* Yup
